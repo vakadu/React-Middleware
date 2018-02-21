@@ -17,6 +17,10 @@ export default function ({ dispatch }) {
             })
     }
 }
+//dispatch means take this action and send it to top most 
+//reducer again
+
+//next means go to next middleware
 
 //es5
 // export default function ({ dispatch }) {
